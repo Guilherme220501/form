@@ -53,7 +53,7 @@ button{cursor: progress;margin:auto;width:290px;border-radius:10px 10px;text-sha
     <label for="CPF">CPF</label>
     <input type="text" name="cpf" id="cpf" title="Digite o seu CPF" placeholder="Exemplo: 503.552.748-41" pattern="^\d{3}\.\d{3}\.\d{3}-\d{2}$" maxlength="30" required>
     <label for="RG">RG</label>
-    <input type="text" name="rg" id="rg" title="Digite o seu RG" placeholder="Exemplo: 53.742.867-7" maxlength="30" required>
+    <input type="text" name="rg" id="rg" title="Digite o seu RG" pattern="\(\d{3}\) \d{3}-\d{4}" placeholder="Exemplo: 53.742.867-7" maxlength="30" required>
     <label for="Telefone">Telefone</label>
     <input type="tel" name="telefone" id="telefone" title="Digite o seu Telefone" placeholder="Exemplo: (11) 98341-7590" maxlength="30" required>
     <label for="Sexo">Sexo</label>
